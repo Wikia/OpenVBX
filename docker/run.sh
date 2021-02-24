@@ -46,7 +46,7 @@ if [ ! -z "$DB_URL" ]; then
 
 
    cat >/var/www/site/OpenVBX/config/database.php <<EOL
-   <?php
+<?php
    \$active_group = 'default';
    \$active_record = TRUE;
    \$db['default']['username'] = '$db_user';
